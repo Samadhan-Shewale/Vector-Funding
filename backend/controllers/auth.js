@@ -1,6 +1,11 @@
-import { User } from "../models/user.js";
+import mongoose from "mongoose";
+import dotenv from 'dotenv';
 import jwt from 'jsonwebtoken';
 import bcrypt from "bcryptjs";
+import { User } from "../models/user.js";
+dotenv.config();
+
+const JWT_SECRET = process.env.JWT_SECRET || 'apex-prop-secret-key';
 
 export const authSignUp = async (req, res) => {
   try {

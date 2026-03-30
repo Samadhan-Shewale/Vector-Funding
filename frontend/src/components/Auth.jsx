@@ -53,7 +53,7 @@ export const Auth = ({ onLogin }) => {
           </div>
           
           <h1 className="text-4xl font-bold text-white mb-2 tracking-tight">
-            APEX<span className="text-emerald-500">PROP</span>
+            Vector-<span className="text-emerald-500">Funding</span>
           </h1>
           <p className="text-gray-400 text-lg">
             {isLogin ? 'Welcome back to the terminal' : 'Start your trading journey today'}

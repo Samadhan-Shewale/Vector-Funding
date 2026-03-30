@@ -1,3 +1,4 @@
+import mongoose from "mongoose";
 import { Trade } from "../models/trade.js";
 
 export const getTrades  =  async (req, res) => {

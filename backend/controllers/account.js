@@ -1,3 +1,4 @@
+import mongoose from "mongoose";
 import { Account } from "../models/account.js";
 
 export const getAccounts =  async (req, res) => {

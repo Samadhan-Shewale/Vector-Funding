@@ -1,3 +1,4 @@
+import { mongoose } from "mongoose";
 import { Withdrawal } from "../models/withdrawal.js";
 
 export const getWithdrawal  =  async (req, res) => {
