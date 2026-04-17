@@ -3,13 +3,13 @@ import React from 'react';
 export const About = () => {
   return (
     <div className="pt-24 pb-12 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-      <h1 className="text-4xl font-bold text-white mb-8">About ApexProp</h1>
+      <h1 className="text-4xl font-bold text-white mb-8">About Vector-Funding</h1>
       
       <div className="space-y-8 text-gray-400 leading-relaxed">
         <section>
           <h2 className="text-2xl font-bold text-white mb-4">Our Mission</h2>
           <p>
-            ApexProp was founded with a single goal: to empower talented traders by providing them with the capital they need to succeed. 
+            Vector-Funding was founded with a single goal: to empower talented traders by providing them with the capital they need to succeed. 
             We believe that financial barriers should not stand in the way of skilled market participants. 
             Our platform offers a fair, transparent, and high-performance environment for traders to showcase their abilities.
           </p>

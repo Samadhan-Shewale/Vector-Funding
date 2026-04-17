@@ -24,7 +24,7 @@ export const Navbar = ({ user, onLogout }) => {
           <div className="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center shadow-lg shadow-emerald-500/20 group-hover:scale-110 transition-transform">
             <TrendingUp className="text-black w-5 h-5" />
           </div>
-          <span className="text-white font-bold text-xl tracking-tight">APEX<span className="text-emerald-500">PROP</span></span>
+          <span className="text-white font-bold text-xl tracking-tight">Vector-<span className="text-emerald-500">Funding</span></span>
         </Link>
 
         {/* Desktop Nav */}

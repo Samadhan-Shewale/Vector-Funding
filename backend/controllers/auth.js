@@ -72,6 +72,8 @@ export const authLogin =  async (req, res) => {
     }
 
     const validPassword = await bcrypt.compare(password, user.password);
+    console.log("User entered password : ",password )
+    console.log("Stored password : ", user.password )
     if (!validPassword) {
       console.log('Login failed: Invalid password for user', normalizedEmail);
       return res.status(400).json({ error: 'Invalid password' });

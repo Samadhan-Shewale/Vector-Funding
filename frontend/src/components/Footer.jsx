@@ -8,10 +8,10 @@ export const Footer = () =>{
                 <div className="w-6 h-6 bg-emerald-500 rounded flex items-center justify-center">
                   <div className="w-3 h-3 bg-black rounded-sm" />
                 </div>
-                <span className="text-white font-bold text-lg tracking-tight">APEX<span className="text-emerald-500">PROP</span></span>
+                <span className="text-white font-bold text-lg tracking-tight">Vector-<span className="text-emerald-500">Funding</span></span>
               </div>
               <p className="text-gray-500 text-sm max-w-sm">
-                ApexProp is a leading proprietary trading firm providing capital to skilled traders worldwide. 
+                Vector-Funding is a leading proprietary trading firm providing capital to skilled traders worldwide. 
                 Our mission is to democratize access to institutional-grade funding.
               </p>
             </div>
